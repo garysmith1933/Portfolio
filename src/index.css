@@ -14,8 +14,10 @@ code {
 
 body {
   background-color: #0a192f;
-  color:white
+  color:white;
+  font-family: 'Raleway', sans-serif;
 }
+
 
 .navbar {
   width: 80%;
@@ -23,7 +25,6 @@ body {
   justify-content: space-between;
   align-items: center;
   color:white;
-  font-family: 'Raleway', sans-serif;
   margin-top: 2rem;
 }
 
@@ -65,4 +66,23 @@ body {
 .navItem-underline:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+.name {
+  color: #EFAAC4;
+}
+
+.button {
+  border-radius: 5px;
+  border: 1px solid #EFAAC4;
+  height: 50px;
+  width: 125px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  background-color: #EFAAC4;
+  transition: transform 1s ease-out;
 }
