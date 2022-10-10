@@ -6,7 +6,6 @@ import {Welcome} from './components/Welcome.js'
 function App() {
   return (
     <div className="App">
-
       <div style={{display:'flex', justifyContent: 'center'}}>
         <Navbar/>
       </div>
