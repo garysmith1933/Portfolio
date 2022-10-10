@@ -18,6 +18,10 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color:inherit;
+}
 
 .navbar {
   width: 80%;
@@ -142,4 +146,23 @@ body {
 
 .blur {
   filter: blur(4px);
+}
+
+/*
+Bodies
+*/
+
+.Contact {
+  height: 100vh;
+  background: steelblue;
+}
+
+.About {
+  height: 100vh;
+  background: orchid;
+}
+
+.Work {
+  height: 100vh;
+  background: olivedrab;
 }
