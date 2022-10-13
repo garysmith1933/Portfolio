@@ -5,7 +5,7 @@ export const Navbar = ({scrollToSection, AboutRef, WorkRef, ContactRef}) => {
         const nav = document.querySelector('.nav-items')
         const toggle = document.querySelector('.nav-toggle')
         const isVisible = nav.getAttribute('data-visible')
-        const background = document.querySelector('#welcome-container')
+        const background = document.querySelector('.greeting-container')
     
         if(isVisible === 'true') {
             nav.setAttribute('data-visible', 'false')

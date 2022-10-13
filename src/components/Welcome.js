@@ -1,8 +1,9 @@
 export const Welcome = () => {
    return (
-    <div id='welcome-container'>
-        <h1>Hi, My name is <span className='name'>Gary Smith</span>.</h1>
-        <h1 style={{marginTop:0}}>I'm a full stack developer.</h1>
+    <div className='greeting-container'>
+        <h4 className="greeting-name">Hi, my name is Gary!<span className="greeting-joke"> Yes, like the snail</span>.</h4>
+        <h1 className="greeting-detail">I can code or something like that.</h1>
+        <p className='greeting-story'> I'm a full stack web developer based in Ewing, NJ</p> 
         <div className='button'>See my Work</div>
     </div>
     
