@@ -25,7 +25,8 @@ body {
   align-items: center;
   height: 100vh;
   width: 100%;
-  background: url('./assets/Valley.svg')
+  background: url('./assets/Valley.svg');
+  box-shadow: 0 4px 2px -2px gray;
 }
 
 .greeting-container {
@@ -136,7 +137,7 @@ a {
 .button:hover {
   -webkit-transform: translateY(-1px);
 	transform: translateY(-1px);
-  background-color: #0D00A4;
+  background-color:#0D00A4;
   color:#f1f2f3;
   border-color:#0D00A4;
   transition-timing-function: ease-in;
@@ -157,7 +158,7 @@ Bodies
 
 .About {
   height: 100vh;
-  background: #f0edee;
+  background: #f1f2f3;
 }
 
 .Work {
@@ -165,26 +166,49 @@ Bodies
   background: olivedrab;
 }
 
-
-.about-title {
-  text-align: center;
-  color:#0a090c;
-  margin-top: 1rem;
-  font-size: 2.5rem;
+.about-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:50%
 }
 
-.about-body {
+
+.about-title {
+  color:#0a090c;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.line {
+  color:#0D00A4;
+  background-color:#058C42;
+  height: 3px;
+  width:7%;
+}
+
+
+
+
+.about-story {
   color: #0a090c;
   padding: 1rem;
   width: 50%;
   text-align: left;
   line-height: 2rem;
-  border: 1px solid #058C42;
-  border-radius: 10px;
+  border-left: 5px solid #0D00A4;
+  margin-top: 0.5rem;
+  font-weight: bold;
 }
+
 
 .about {
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
@@ -252,5 +276,3 @@ Bodies
     font-size: 2.5em;
   }
 }
-
-
