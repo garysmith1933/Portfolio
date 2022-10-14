@@ -84,6 +84,10 @@ a {
   text-align: left;
 }
 
+.nav-number {
+  color:#058C42;
+}
+
 
 .nav-item {
   margin-left: 2rem;
@@ -205,6 +209,10 @@ Bodies
     align-items: center;
     margin-left: 0;
     color:#f1f2f3;
+  }
+
+  .nav-number {
+    color:white;
   }
 
   .nav-items[data-visible='true'] {
