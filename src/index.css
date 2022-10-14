@@ -13,9 +13,48 @@ code {
 }
 
 body {
-  background-color: #0a192f;
-  color:white;
+  background-color: #f1f2f3;
+  color:#0A090C;
   font-family: 'Raleway', sans-serif;
+}
+
+.greeting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: url('./assets/Valley.svg')
+}
+
+.greeting-container {
+  text-align: left;
+}
+
+.greeting-name, .greeting-intro {
+  color:#04F06A;
+  font-weight: 500px;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.greeting-intro {
+  color:#f1f2f3;
+}
+
+.greeting-detail {
+  font-weight: Bold;
+  font-size: 4rem;
+  color: #f1f2f3;
+  margin-top: 0;
+  margin-bottom:15px;
+}
+
+.greeting-story {
+  margin-top:0;
+  font-weight: 400px;
+  font-size:1.5rem;
 }
 
 a {
@@ -28,8 +67,8 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color:white;
   margin-top: 2rem;
+  font-weight: 600;
 }
 
 .nav-logo {
@@ -63,7 +102,7 @@ a {
   height: 2px;
   bottom: -8px;
   left:0;
-  background-color: #EFAAC4;
+  background-color: #0D00A4;
   transform-origin: bottom left;
   transition: transform 0.25s ease-out;
 }
@@ -77,19 +116,86 @@ a {
   display: none;
 }
 
+.button {
+  border-radius: 5px;
+  border: 1px solid #f1f2f3;
+  color: #f1f2f3;
+  font-weight: bold;
+  height: 50px;
+  width: 125px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
 
-@media (max-width: 40em) {
+.button:hover {
+  -webkit-transform: translateY(-1px);
+	transform: translateY(-1px);
+  background-color: #0D00A4;
+  color:#f1f2f3;
+  border-color:#0D00A4;
+  transition-timing-function: ease-in;
+}
+
+.blur {
+  filter: blur(4px);
+}
+
+/*
+Bodies
+*/
+
+.Contact {
+  height: 100vh;
+  background: steelblue;
+}
+
+.About {
+  height: 100vh;
+  background: #f0edee;
+}
+
+.Work {
+  height: 100vh;
+  background: olivedrab;
+}
+
+
+.about-title {
+  text-align: center;
+  color:#0a090c;
+  margin-top: 1rem;
+  font-size: 2.5rem;
+}
+
+.about-body {
+  color: #0a090c;
+  padding: 1rem;
+  width: 50%;
+  text-align: left;
+  line-height: 2rem;
+  border: 1px solid #058C42;
+  border-radius: 10px;
+}
+
+.about {
+  padding: 1rem;
+}
+
+
+@media (max-width: 50em) {
+  /*Navbar on mobile */
   .nav-items {
     position: fixed;
     z-index: 1000;
     inset: 0 0 0 30%;
     flex-direction: column;
     align-items: center;
-    background: steelblue;
+    background:#1A936F;
     padding: min(30vh, 10rem);
     gap: 2em;
     transform: translateX(100%);
-    transition: transform 350ms ease-out;
   }
 
   .nav-item {
@@ -98,10 +204,12 @@ a {
     justify-content: center;
     align-items: center;
     margin-left: 0;
+    color:#f1f2f3;
   }
 
   .nav-items[data-visible='true'] {
     transform: translateX(0%);
+    transition: transform 350ms ease-out;
   }
 
   .nav-toggle {
@@ -123,46 +231,18 @@ a {
     background-repeat: no-repeat;
   }
   
+  /*Welcome on mobile */
+  .greeting-container {
+    padding: 2rem;
+  }
+
+  .greeting-name, .greeting-intro {
+    font-size: 1.5rem;
+  }
+
+  .greeting-detail {
+    font-size: 2.5em;
+  }
 }
 
-.name {
-  color: #EFAAC4;
-}
 
-.button {
-  border-radius: 5px;
-  border: 1px solid #EFAAC4;
-  height: 50px;
-  width: 125px;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.button:hover {
-  background-color: #EFAAC4;
-  transition: transform 1s ease-out;
-}
-
-.blur {
-  filter: blur(4px);
-}
-
-/*
-Bodies
-*/
-
-.Contact {
-  height: 100vh;
-  background: steelblue;
-}
-
-.About {
-  height: 100vh;
-  background: orchid;
-}
-
-.Work {
-  height: 100vh;
-  background: olivedrab;
-}

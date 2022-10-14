@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import {Navbar} from './components/Navbar.js'
 import {Welcome} from './components/Welcome.js'
@@ -26,7 +25,7 @@ function App() {
         <Navbar scrollToSection={scrollToSection} AboutRef={AboutRef} WorkRef={WorkRef} ContactRef={ContactRef}/>
       </div>
 
-      <div style={{display:'flex', flexDirection:'column', justifyContent: 'center', alignItems:'center', height: '100vh'}}>
+      <div className='greeting'>
         <Welcome/>
       </div>
 
