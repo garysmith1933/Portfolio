@@ -32,22 +32,23 @@ body {
   text-align: left;
 }
 
-.greeting-name {
-  color:#1A936F;
+.greeting-name, .greeting-intro {
+  color:#04F06A;
   font-weight: 500px;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 10px;
 }
 
-.greeting-joke {
-  color:white;
+.greeting-intro {
+  color:#f1f2f3;
 }
 
 .greeting-detail {
   font-weight: Bold;
   font-size: 4rem;
-  color: white;
+  color: #f1f2f3;
   margin-top: 0;
+  margin-bottom:15px;
 }
 
 .greeting-story {
@@ -115,60 +116,11 @@ a {
   display: none;
 }
 
-
-@media (max-width: 40em) {
-  .nav-items {
-    position: fixed;
-    z-index: 1000;
-    inset: 0 0 0 30%;
-    flex-direction: column;
-    align-items: center;
-    background: steelblue;
-    padding: min(30vh, 10rem);
-    gap: 2em;
-    transform: translateX(100%);
-    transition: transform 350ms ease-out;
-  }
-
-  .nav-item {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0;
-  }
-
-  .nav-items[data-visible='true'] {
-    transform: translateX(0%);
-  }
-
-  .nav-toggle {
-    display: block;
-    position: absolute;
-    z-index: 9999;
-    background: url('./assets/hamburger.png');
-    background-repeat: no-repeat;
-    width: 2rem;
-    border:0;
-    aspect-ratio: 1;
-    top: 2rem;
-    right: 2rem;
-  }  
-
-  
-  .nav-toggle[aria-expanded='true'] {
-    background: url('./assets/close.png');
-    background-repeat: no-repeat;
-  }
-  
-}
-
-
 .button {
   border-radius: 5px;
-  background-color:#0D00A4;
-  color:white;
-  font-weight: 600;
+  border: 1px solid #f1f2f3;
+  color: #f1f2f3;
+  font-weight: bold;
   height: 50px;
   width: 125px;
   display:flex;
@@ -180,6 +132,9 @@ a {
 .button:hover {
   -webkit-transform: translateY(-1px);
 	transform: translateY(-1px);
+  background-color: #0D00A4;
+  color:#f1f2f3;
+  border-color:#0D00A4;
   transition-timing-function: ease-in;
 }
 
@@ -198,7 +153,7 @@ Bodies
 
 .About {
   height: 100vh;
-  background: #f0edee
+  background: #f0edee;
 }
 
 .Work {
@@ -227,3 +182,67 @@ Bodies
 .about {
   padding: 1rem;
 }
+
+
+@media (max-width: 50em) {
+  /*Navbar on mobile */
+  .nav-items {
+    position: fixed;
+    z-index: 1000;
+    inset: 0 0 0 30%;
+    flex-direction: column;
+    align-items: center;
+    background:#1A936F;
+    padding: min(30vh, 10rem);
+    gap: 2em;
+    transform: translateX(100%);
+  }
+
+  .nav-item {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    color:#f1f2f3;
+  }
+
+  .nav-items[data-visible='true'] {
+    transform: translateX(0%);
+    transition: transform 350ms ease-out;
+  }
+
+  .nav-toggle {
+    display: block;
+    position: absolute;
+    z-index: 9999;
+    background: url('./assets/hamburger.png');
+    background-repeat: no-repeat;
+    width: 2rem;
+    border:0;
+    aspect-ratio: 1;
+    top: 2rem;
+    right: 2rem;
+  }  
+
+  
+  .nav-toggle[aria-expanded='true'] {
+    background: url('./assets/close.png');
+    background-repeat: no-repeat;
+  }
+  
+  /*Welcome on mobile */
+  .greeting-container {
+    padding: 2rem;
+  }
+
+  .greeting-name, .greeting-intro {
+    font-size: 1.5rem;
+  }
+
+  .greeting-detail {
+    font-size: 2.5em;
+  }
+}
+
+
