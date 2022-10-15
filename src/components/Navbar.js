@@ -48,10 +48,10 @@ export const Navbar = ({scrollToSection, AboutRef, WorkRef, ContactRef}) => {
 
             <nav>
                 <ul id='nav-items' className='nav-items' data-visible='false'>   
-                    <li className='nav-item navItem-underline' onClick={() => toggleCheck(AboutRef)}><span>01</span> About</li>
-                    <li className='nav-item navItem-underline' onClick={() => toggleCheck(WorkRef)} > <span>02</span> Work</li>
-                    <li className='nav-item navItem-underline' onClick={() => toggleCheck(ContactRef)}> <span>03</span> Contact</li>
-                    <li className='nav-item navItem-underline' > <span>04</span> Resume</li>
+                    <li className='nav-item navItem-underline' onClick={() => toggleCheck(AboutRef)}><span className='nav-number'>01</span> About</li>
+                    <li className='nav-item navItem-underline' onClick={() => toggleCheck(WorkRef)} > <span className='nav-number'>02</span> Work</li>
+                    <li className='nav-item navItem-underline' onClick={() => toggleCheck(ContactRef)}> <span className='nav-number'>03</span> Contact</li>
+                    <li className='nav-item navItem-underline' > <span className='nav-number'>04</span> Resume</li>
                 </ul>
             </nav>
             
