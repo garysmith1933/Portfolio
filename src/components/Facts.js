@@ -3,11 +3,9 @@ export const Facts = ({image, title, text}) => {
         <div className='facts'>
             <div className='facts-content'>
                 <img src={image} alt='I dont quit'/>
-                <h3 style={{marginTop: '16px'}}>{title}</h3>
-                <p>{text}</p> 
+                <h2 style={{marginTop: '16px'}}>{title}</h2>
+                <p className='fact-text'>{text}</p> 
             </div>
-        
-        
         </div>
     )
 }
