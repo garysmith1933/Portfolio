@@ -159,14 +159,17 @@ Bodies
 .About {
   background: #f1f2f3;
   min-height: 100vh;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  align-items: center;
+  padding:1rem;
 }
 
 .Work {
-  height: 100vh;
-  background: olivedrab;
+  min-height: 100vh;
 }
 
-.about-header {
+.section-header {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -206,7 +209,7 @@ Bodies
 }
 
 
-.about {
+.about-container {
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -361,5 +364,95 @@ Bodies
 
   .fact-title {
     margin-top:1.3rem;
+  }
+}
+
+.work-container {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects {
+  display:flex;
+  justify-content: space-between;
+  gap:5rem;
+}
+
+.project1 {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.project-title {
+  font-size:2.5rem;
+  margin-bottom:0;
+}
+
+.project-description {
+  font-size: 1.5rem;
+  margin-top:1rem;
+}
+
+.project-image {
+  height:500px;
+  width: 900px;
+  border-radius: 5px;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  position: relative;
+}
+
+.project-links {
+  margin-top: 1rem;
+}
+
+.demo-link:hover {
+  color:#0D00A4;
+}
+
+.github-link:hover {
+  color:#058C42;
+}
+
+
+@media (max-width:50em) {
+  .projects {
+    flex-direction: column;
+    align-items: center;
+    gap:3rem;
+  }
+
+  .demo-link {
+    display:none;
+  }
+
+  .project-description {
+    font-size: 1rem;
+  }
+
+  .project-title {
+    font-size: 1.5rem;
+  }
+
+  .project-image {
+    height:300px;
+    width:600px;
+  }
+
+  .viz {
+    order: -1;
+  }
+
+  .project-info {
+    width: 70%;
+    padding:1rem;
   }
 }
