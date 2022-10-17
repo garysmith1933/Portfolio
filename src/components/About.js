@@ -8,7 +8,7 @@ export const About = () => {
         <div className='about'>
             <div className='about-header'>
                 <h1 className='about-title'>About</h1>
-                <div className='line right'></div>
+                <div className='line'></div>
             </div>
            
             <div className='about-story'>
@@ -24,24 +24,10 @@ export const About = () => {
             </div>
 
             <div className='facts-container'>
-                <Facts image={boxing} title={"I have grit"} text={"When things get tough, I'm not one to back down so easily."}/>
+                <Facts image={boxing} title={"I have grit!"} text={"When things get tough, I'm not one to back down so easily."}/>
                 <TechnicalSkills/>
-                <Facts image={book} title={"I'm always learning"} text={"I am always working to improve, both as a developer, and as a person."}/>
+                <Facts image={book} title={"I'm always learning!"} text={"I am always working to improve, both as a developer, and as a person."}/>
             </div>
-               
-{/* 
-            <div className='facts'> 
-                <h3> A little more about me</h3>
-                <div className='facts-about-me'>
-                    <h5>Never Ending Learner</h5>
-                </div>
-                <div className='facts-about-me'>
-                    <h5>Skills</h5>
-                </div>
-                <div className='facts-about-me'>
-                    <h5> Never Quit </h5>
-                </div>
-            </div> */}
         </div>
     )
 }
