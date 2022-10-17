@@ -423,7 +423,7 @@ Bodies
 }
 
 
-@media (max-width:50em) {
+@media (max-width:90em) {
   .projects {
     flex-direction: column;
     align-items: center;
