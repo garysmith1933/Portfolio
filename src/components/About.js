@@ -5,8 +5,8 @@ const book = require('../assets/book.png')
 
 export const About = () => {
     return (
-        <div className='about'>
-            <div className='about-header'>
+        <div className='about-container'>
+            <div className='section-header'>
                 <h1 className='about-title'>About</h1>
                 <div className='line'></div>
             </div>
