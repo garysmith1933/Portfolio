@@ -157,8 +157,8 @@ Bodies
 }
 
 .About {
-  height: 100vh;
   background: #f1f2f3;
+  min-height: 100vh;
 }
 
 .Work {
@@ -183,13 +183,11 @@ Bodies
 }
 
 .line {
-  color:#0D00A4;
   background-color:#058C42;
   height: 3px;
   width:7%;
+  margin-top: 0px;
 }
-
-
 
 
 .about-story {
@@ -199,7 +197,7 @@ Bodies
   text-align: left;
   line-height: 2rem;
   margin-top: 0.5rem;
-  font-weight: 600;
+  font-weight: 500;
   position: relative;
 }
 
@@ -335,6 +333,33 @@ Bodies
 }
 
 .fact-text {
-  font-weight: 400;
+  font-weight: 500;
 }
 
+.fact-title {
+  margin-top:1rem;
+}
+
+/* About page on mobile */
+@media (max-width: 50em) {
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .about {
+    padding: 1.8rem;
+  }
+
+  .about-story {
+    width: 100%;
+    line-height: 1.5rem;
+  }
+
+  .facts-container {
+    flex-direction: column;
+  }
+
+  .fact-title {
+    margin-top:1.3rem;
+  }
+}

@@ -5,8 +5,8 @@ export const TechnicalSkills = () => {
         <div className='facts'>
         <div className='facts-content'>
             <img src={code} alt='Skills'/>
-            <h2 style={{marginTop: '16px'}}>I got skills!</h2>
-            <p className='fact-text'>My technical skills include, <b>Javascript, React, Redux, Node.js, and PostgreSQL.</b></p> 
+            <h3 className='facts-title'>I got skills!</h3>
+            <p className='fact-text'>My technical skills include, <b>HTML5, CSS3, Javascript, React, Redux, Node.js, and PostgreSQL.</b></p> 
         </div>
     
     
