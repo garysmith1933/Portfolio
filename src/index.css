@@ -152,7 +152,6 @@ Bodies
 */
 
 .Contact {
-  height: 100vh;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -463,6 +462,7 @@ Bodies
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding:2rem;
 }
 
 .contact-content {
@@ -481,4 +481,14 @@ Bodies
 .cta {
   background-color: #0D00A4;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.footer-container {
+  background-color:#0a090c;
+  color:white;
+  padding:2rem;
+}
+
+.footer-text:hover {
+  color:#04F06A;
 }
