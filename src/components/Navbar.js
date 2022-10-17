@@ -1,5 +1,5 @@
 
-export const Navbar = ({scrollToSection, AboutRef, WorkRef, ContactRef}) => {
+export const Navbar = ({scrollToSection, HomeRef, AboutRef, WorkRef, ContactRef}) => {
 
     const toggleNav = () => {
         const nav = document.querySelector('.nav-items')
@@ -26,7 +26,7 @@ export const Navbar = ({scrollToSection, AboutRef, WorkRef, ContactRef}) => {
         const nav = document.querySelector('.nav-items')
         const toggle = document.querySelector('.nav-toggle')
         const isVisible = nav.getAttribute('data-visible')
-        const background = document.querySelector('#welcome-container')
+        const background = document.querySelector('.greeting-container')
 
         //if the hamburger menu is open, we need to close it before we can navigate to the new section
         if(isVisible === 'true') {
@@ -34,7 +34,7 @@ export const Navbar = ({scrollToSection, AboutRef, WorkRef, ContactRef}) => {
             toggle.setAttribute('aria-expanded', 'false')
             background.classList.remove('blur')
         }
-    
+        
         scrollToSection(elementRef)
     }
 
@@ -48,10 +48,10 @@ export const Navbar = ({scrollToSection, AboutRef, WorkRef, ContactRef}) => {
 
             <nav>
                 <ul id='nav-items' className='nav-items' data-visible='false'>   
-                    <li className='nav-item navItem-underline' onClick={() => toggleCheck(AboutRef)}><span className='nav-number'>01</span> About</li>
-                    <li className='nav-item navItem-underline' onClick={() => toggleCheck(WorkRef)} > <span className='nav-number'>02</span> Work</li>
-                    <li className='nav-item navItem-underline' onClick={() => toggleCheck(ContactRef)}> <span className='nav-number'>03</span> Contact</li>
-                    <li className='nav-item navItem-underline' > <span className='nav-number'>04</span> Resume</li>
+                    <li className='nav-item navItem-underline' onClick={() => toggleCheck(HomeRef)}><span className='nav-number'>01</span> Home</li>
+                    <li className='nav-item navItem-underline' onClick={() => toggleCheck(AboutRef)}><span className='nav-number'>02</span> About</li>
+                    <li className='nav-item navItem-underline' onClick={() => toggleCheck(WorkRef)} ><span className='nav-number'>03</span> Work</li>
+                    <li className='nav-item navItem-underline' onClick={() => toggleCheck(ContactRef)}><span className='nav-number'>04</span> Contact</li>
                 </ul>
             </nav>
             
