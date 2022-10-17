@@ -153,7 +153,7 @@ Bodies
 
 .Contact {
   height: 100vh;
-  background: steelblue;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .About {
@@ -378,6 +378,7 @@ Bodies
   display:flex;
   justify-content: space-between;
   gap:5rem;
+  padding-bottom: 2rem;
 }
 
 .project1 {
@@ -455,4 +456,29 @@ Bodies
     width: 70%;
     padding:1rem;
   }
+}
+/*CONTACT*/
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-content {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.contact-text {
+  margin-bottom: 0.5rem;
+  padding:1rem;
+}
+
+.cta {
+  background-color: #0D00A4;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
