@@ -8,12 +8,12 @@ import{Footer} from './components/Footer.js'
 import {useRef} from 'react'
 
 function App() {
+  const HomeRef = useRef(null)
   const AboutRef = useRef(null)
   const WorkRef = useRef(null)
   const ContactRef = useRef(null)
 
   const scrollToSection = (elementRef) => {
-    console.log('triggered')
     window.scrollTo({
       top: elementRef.current.offsetTop,
       behavior:'smooth'
@@ -23,12 +23,12 @@ function App() {
   return (
     <div className="App">
       <div style={{display:'flex', justifyContent: 'center'}}>
-        <Navbar scrollToSection={scrollToSection} AboutRef={AboutRef} WorkRef={WorkRef} ContactRef={ContactRef}/>
+        <Navbar scrollToSection={scrollToSection} HomeRef={HomeRef} AboutRef={AboutRef} WorkRef={WorkRef} ContactRef={ContactRef}/>
       </div>
 
-      <div className='greeting'>
+      <section className='greeting' ref={HomeRef}>
         <Welcome/>
-      </div>
+      </section>
 
       <section ref={AboutRef} className='About'>
         <About/>
