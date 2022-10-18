@@ -345,7 +345,7 @@ Bodies
 }
 
 /* About page on mobile */
-@media (max-width: 90em) {
+@media (max-width: 60em) {
   .about-title {
     font-size: 2rem;
   }
