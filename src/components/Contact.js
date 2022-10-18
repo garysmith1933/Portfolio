@@ -1,4 +1,5 @@
-export const Contact = () => {
+
+export const Contact = ({scrollToSection, HomeRef}) => {
     return (
         <div className='contact-container'>
             <div className='section-header'>
@@ -11,6 +12,9 @@ export const Contact = () => {
                 <div className='button cta'>
                     <a href='mailto:garysmith193358@gmail.com'>Lets talk!</a>
                 </div>
+            </div>
+
+            <div className='arrow' onClick={() => scrollToSection(HomeRef)}>
             </div>
         </div>
     )

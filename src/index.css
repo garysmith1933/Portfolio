@@ -70,12 +70,13 @@ a {
   align-items: center;
   margin-top: 2rem;
   font-weight: 600;
-  /* position:fixed; */
+  padding:1rem;
 }
 
 .nav-logo {
   margin-left: 2rem;
   font-size: 2rem;
+  font-family: 'Leckerli One', cursive;
 }
 
 .nav-items {
@@ -413,6 +414,7 @@ Bodies
 
 .project-links {
   margin-top: 1rem;
+  font-weight:600px;
 }
 
 .demo-link:hover {
@@ -492,4 +494,17 @@ Bodies
 
 .footer-text:hover {
   color:#04F06A;
+}
+
+.arrow {
+  margin-top:3rem;
+  display: flex;
+  justify-content: center;
+  background: url('assets/upwardarrow.png');
+  height: 50px;
+  width: 50px;
+}
+
+.arrow:hover {
+  background: url('assets/upwardarrowhover.png')
 }

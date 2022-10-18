@@ -39,7 +39,7 @@ function App() {
       </section>
 
       <section ref={ContactRef} className='Contact'>
-        <Contact/>
+        <Contact scrollToSection={scrollToSection} HomeRef={HomeRef}/>
       </section>
 
       <Footer/>
