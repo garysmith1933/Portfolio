@@ -27,7 +27,7 @@ function App() {
       </div>
 
       <section className='greeting' ref={HomeRef}>
-        <Welcome/>
+        <Welcome scrollToSection={scrollToSection} WorkRef={WorkRef} />
       </section>
 
       <section ref={AboutRef} className='About'>
