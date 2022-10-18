@@ -259,7 +259,7 @@ Bodies
     width: 2rem;
     border:0;
     aspect-ratio: 1;
-    top: 2rem;
+    top: 3.5rem;
     right: 2rem;
   }  
 
@@ -345,7 +345,7 @@ Bodies
 }
 
 /* About page on mobile */
-@media (max-width: 50em) {
+@media (max-width: 90em) {
   .about-title {
     font-size: 2rem;
   }
