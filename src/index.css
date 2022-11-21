@@ -134,11 +134,10 @@ a {
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
+  transition: color, 0.5s;
 }
 
 .button:hover {
-  -webkit-transform: translateY(-1px);
-	transform: translateY(-1px);
   background-color:#0D00A4;
   color:#f1f2f3;
   border-color:#0D00A4;
@@ -483,7 +482,11 @@ Bodies
 
 .cta {
   background-color: #0D00A4;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: background-color, 0.5s;
+}
+
+.cta:hover {
+  color: white;
 }
 
 .footer-container {
