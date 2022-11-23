@@ -36,7 +36,7 @@ export const Work = () => {
                     <b>React, Express, Node.js, P5.js, Google OAuth 2.0, AWS S3</b>
 
                     <div className='project-links'>
-                        <a className='demo-link'href='https://viz-two.herokuapp.com/' target='_blank'>Website</a>
+                        <a className='demo-link'href='https://viz.onrender.com/' target='_blank'>Website</a>
                         &nbsp;  &nbsp;
                         <a className='github-link' href='https://github.com/garysmith1933/Viz' target='_blank'>Github</a>  
                     </div>
