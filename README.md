@@ -4,7 +4,7 @@ Write a short sentence or two about this project and what it does. Be sure to in
 
 **Link to project:** https://garysmith.dev/
 
-![Screenshot]('./src/assets/portfolio.png')
+![Screenshot](./src/assets/portfolio.png)
 
 ## How It's Made:
 
