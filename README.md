@@ -1,6 +1,6 @@
 
-# My Awesome Project
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+# My Personal Portfolio
+Here you learn a bit about my background and see some of my work. If you like what you see or have some feedback for me, feel free to reach out!
 
 **Link to project:** https://garysmith.dev
 
@@ -8,18 +8,12 @@ Write a short sentence or two about this project and what it does. Be sure to in
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Framework of choice
+**Tech used:** HTML, CSS, JavaScript, React
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
-
-## Optimizations
-*(optional)*
-
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+My portfolio is a single page application broken down to 4 different sections, Home, About, Work, and Contact. Each navbar item had its own ref that was connected its respected section of the applciation. When one of the navbar items are clicked, the page will automatically scroll to section connected to the navbar item. This was mainly done using the useRef hook.
 
 ## Lessons Learned:
-
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+The two biggest things I learned from this project was learning to make a website responsive, being able to change the layout of elements on the page pending on the size of the screen the user is on, and being able to navigate to different parts of the same page by the navbar.
 
 
 
