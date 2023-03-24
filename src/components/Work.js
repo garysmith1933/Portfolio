@@ -1,5 +1,6 @@
 const mealFinder = require('../assets/mealfinder.png')
-const viz= require('../assets/Viz.png')
+const viz = require('../assets/Viz.png')
+const knowMe = require('../assets/knowme.png')
 
 export const Work = () => {
     return (
@@ -33,7 +34,7 @@ export const Work = () => {
 
                     <h2 className='project-title'>Viz</h2>
                     <p className='project-description'>An intereactive audio visualizer that allows users to play their favorite songs while changing the speed, rotation and color of the visualizer at will. </p>
-                    <b>React, Express, Node.js, P5.js, Google OAuth 2.0, AWS S3</b>
+                    <b>React, Express, Node.js, P5.js</b>
 
                     <div className='project-links'>
                         <a className='demo-link'href='https://viz.onrender.com/' target='_blank'>Website</a>
@@ -42,6 +43,24 @@ export const Work = () => {
                     </div>
                 </div>
                 <img className='project-image viz' src={viz} alt=''/>   
+            </div>
+
+            <div className='projects'>
+                <img className='project-image viz' src={knowMe} alt=''/> 
+                <div className='project-info'>
+                    <div className='top left'></div>
+                    <div className='bottom right'></div>
+
+                    <h2 className='project-title'>Know Me</h2>
+                    <p className='project-description'> A quiz thats about me! Find out other things about me thats not mentioned anywhere else. </p>
+                    <b>React, PostgreSQL, Flask</b>
+
+                    <div className='project-links'>
+                        <a className='demo-link'href='https://knowme.onrender.com/' target='_blank'>Website</a>
+                        &nbsp;  &nbsp;
+                        <a className='github-link' href='https://github.com/garysmith1933/KnowMe' target='_blank'>Github</a>  
+                    </div>
+                </div>  
             </div>
         </div>
     )
