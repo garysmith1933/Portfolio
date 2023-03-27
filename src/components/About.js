@@ -1,4 +1,4 @@
-import {Facts} from './Facts'
+import { Facts } from './Facts'
 import { TechnicalSkills } from './TechnicalSkills'
 const boxing = require('../assets/boxing.png')
 const book = require('../assets/book.png')

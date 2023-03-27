@@ -1,11 +1,11 @@
 import './App.css';
-import {Navbar} from './components/Navbar.js'
-import {Welcome} from './components/Welcome.js'
-import {About} from './components/About.js'
-import {Work} from './components/Work.js'
-import {Contact} from './components/Contact.js'
-import{Footer} from './components/Footer.js'
-import {useRef} from 'react'
+import { Navbar } from './components/Navbar.js'
+import { Welcome } from './components/Welcome.js'
+import { About } from './components/About.js'
+import { Projects } from './components/Projects.js'
+import { Contact } from './components/Contact.js'
+import { Footer } from './components/Footer.js'
+import { useRef } from 'react'
 
 function App() {
   const HomeRef = useRef(null)
@@ -35,7 +35,7 @@ function App() {
       </section>
 
       <section ref={WorkRef} className='Work'>
-        <Work/>
+        <Projects/>
       </section>
 
       <section ref={ContactRef} className='Contact'>

@@ -1,4 +1,3 @@
-
 export const Contact = ({scrollToSection, HomeRef}) => {
     return (
         <div className='contact-container'>

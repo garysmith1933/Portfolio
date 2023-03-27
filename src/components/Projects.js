@@ -2,11 +2,11 @@ const mealFinder = require('../assets/mealfinder.png')
 const viz = require('../assets/Viz.png')
 const knowMe = require('../assets/knowme.png')
 
-export const Work = () => {
+export const Projects = () => {
     return (
         <div className='work-container'>
             <div className='section-header'>
-                <h1 className='about-title'>Work</h1>
+                <h1 className='about-title'>Projects</h1>
                 <div className='line'></div>
             </div>
 
