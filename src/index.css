@@ -128,7 +128,7 @@ a {
   border: 1px solid #f1f2f3;
   color: #f1f2f3;
   font-weight: bold;
-  height: 50px;
+  height: 60px;
   width: 125px;
   display:flex;
   justify-content: center;
@@ -142,6 +142,7 @@ a {
   color:#f1f2f3;
   border-color:#0D00A4;
   transition-timing-function: ease-in;
+  cursor: pointer;
 }
 
 .blur {

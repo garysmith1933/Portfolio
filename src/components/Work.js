@@ -17,7 +17,7 @@ export const Work = () => {
                     <div className='bottom right'></div>
 
                     <h2 className='project-title'>Mealfinder</h2>
-                    <p className='project-description'> A react application made to help me and my wife decide what our next meal is going to be by providing recipe suggestions from the Spoontacular API.</p>
+                    <p className='project-description'> A react application made to help users decide what our next meal is going to be.</p>
                     <b>React, Express, Node.js, Material-UI, Spoontacular API.</b>
                     <div className='project-links'> 
                         <a className='demo-link' href='https://meal-finder-jbsl.onrender.com/' target='_blank'>Website</a>
