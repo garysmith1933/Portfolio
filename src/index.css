@@ -460,6 +460,12 @@ Bodies
     padding:1rem;
   }
 }
+
+@media (max-width: 40em) {
+  .project-image {
+    width: 550px;
+  }
+}
 /*CONTACT*/
 .contact-container {
   display: flex;

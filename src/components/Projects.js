@@ -1,6 +1,7 @@
 const mealFinder = require('../assets/mealfinder.png')
 const viz = require('../assets/Viz.png')
 const knowMe = require('../assets/knowme.png')
+const productPage = require('../assets/ProductPage.png')
 
 export const Projects = () => {
     return (
@@ -62,6 +63,25 @@ export const Projects = () => {
                     </div>
                 </div>  
             </div>
+
+            <div className='projects'>
+                <div className='project-info'>
+                    <div className='top left'></div>
+                    <div className='bottom right'></div>
+
+                    <h2 className='project-title'>Sneakers Product Page</h2>
+                    <p className='project-description'> An intereactive product page for sneakers.</p>
+                    <b>HTML, CSS, Javascript</b>
+
+                    <div className='project-links'>
+                        <a className='demo-link'href='https://statuesque-scone-4a10f4.netlify.app/' target='_blank'>Website</a>
+                        &nbsp;  &nbsp;
+                        <a className='github-link' href='https://github.com/garysmith1933/E-commerce-Product-Page' target='_blank'>Github</a>  
+                    </div>
+                </div>
+                <img className='project-image viz' src={productPage} alt=''/>   
+            </div>
+
         </div>
     )
 }
