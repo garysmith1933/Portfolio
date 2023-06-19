@@ -70,7 +70,7 @@ export const Projects = () => {
                     <div className='bottom right'></div>
 
                     <h2 className='project-title'>Sneakers Product Page</h2>
-                    <p className='project-description'> An intereactive product page for sneakers.</p>
+                    <p className='project-description'> An interactive product page for sneakers.</p>
                     <b>HTML, CSS, Javascript</b>
 
                     <div className='project-links'>
