@@ -5,6 +5,5 @@ export const Welcome = ({scrollToSection, WorkRef}) => {
         <h1 className="greeting-detail">I enjoy making websites.</h1>
         <div className='button' onClick={() => scrollToSection(WorkRef)}>See my work</div>
     </div>
-    
    )
 }

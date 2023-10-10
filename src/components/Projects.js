@@ -2,6 +2,7 @@ const mealFinder = require('../assets/mealfinder.png')
 const viz = require('../assets/Viz.png')
 const knowMe = require('../assets/knowme.png')
 const productPage = require('../assets/ProductPage.png')
+const garysPCs = require('../assets/garysPCs.png')
 
 export const Projects = () => {
     return (
@@ -12,7 +13,7 @@ export const Projects = () => {
             </div>
 
             <div className='projects project1'>
-                <img className='project-image' src={mealFinder} alt=''/>
+                <img className='project-image' src={mealFinder} alt='mealFinder image'/>
                 <div className='project-info'>
                     <div className='top left'></div>
                     <div className='bottom right'></div>
@@ -43,11 +44,11 @@ export const Projects = () => {
                         <a className='github-link' href='https://github.com/garysmith1933/Viz' target='_blank'>Github</a>  
                     </div>
                 </div>
-                <img className='project-image viz' src={viz} alt=''/>   
+                <img className='project-image viz' src={viz} alt='viz image'/>   
             </div>
 
             <div className='projects'>
-                <img className='project-image viz' src={knowMe} alt=''/> 
+                <img className='project-image viz' src={knowMe} alt='knowMe image'/> 
                 <div className='project-info'>
                     <div className='top left'></div>
                     <div className='bottom right'></div>
@@ -79,7 +80,25 @@ export const Projects = () => {
                         <a className='github-link' href='https://github.com/garysmith1933/E-commerce-Product-Page' target='_blank'>Github</a>  
                     </div>
                 </div>
-                <img className='project-image viz' src={productPage} alt=''/>   
+                <img className='project-image viz' src={productPage} alt='sneaker product page image'/>   
+            </div>
+
+            <div className='projects'>
+                <img className='project-image viz' src={garysPCs} alt='garys pcs image'/> 
+                <div className='project-info'>
+                    <div className='top left'></div>
+                    <div className='bottom right'></div>
+
+                    <h2 className='project-title'>Gary's PCs</h2>
+                    <p className='project-description'> An inventory management application. </p>
+                    <b> Java, Spring Boot, Tymeleaf, JUnit, Docker, H2.</b>
+
+                    <div className='project-links'>
+                        <a className='demo-link'href='https://wgu-d424-capstone.onrender.com' target='_blank'>Website</a>
+                        &nbsp;  &nbsp;
+                        <a className='github-link' href='https://gitlab.com/gsmi572/gs-pcs' target='_blank'>Gitlab</a>  
+                    </div>
+                </div>  
             </div>
 
         </div>
