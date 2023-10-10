@@ -20,7 +20,7 @@ export const Projects = () => {
 
                     <h2 className='project-title'>Mealfinder</h2>
                     <p className='project-description'> A react application made to help users decide what our next meal is going to be.</p>
-                    <b>React, Express, Node.js, Material-UI, Spoontacular API.</b>
+                    <b>React, Express, Node.js, Material-UI, Spoontacular API</b>
                     <div className='project-links'> 
                         <a className='demo-link' href='https://meal-finder-jbsl.onrender.com/' target='_blank'>Website</a>
                         &nbsp;  &nbsp;
@@ -91,7 +91,7 @@ export const Projects = () => {
 
                     <h2 className='project-title'>Gary's PCs</h2>
                     <p className='project-description'> An inventory management application. </p>
-                    <b> Java, Spring Boot, Tymeleaf, JUnit, Docker, H2.</b>
+                    <b> Java, Spring Boot, Tymeleaf, JUnit, Docker, H2</b>
 
                     <div className='project-links'>
                         <a className='demo-link'href='https://wgu-d424-capstone.onrender.com' target='_blank'>Website</a>
