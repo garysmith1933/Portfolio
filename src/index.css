@@ -178,7 +178,6 @@ Bodies
   width:50%
 }
 
-
 .about-title {
   color:#0a090c;
   font-size: 2.5rem;
@@ -192,7 +191,6 @@ Bodies
   width:7%;
   margin-top: 0px;
 }
-
 
 .about-story {
   color: #0a090c;
@@ -209,14 +207,12 @@ Bodies
   margin-left: 0.7rem;
 }
 
-
 .about-container {
   padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 
 @media (max-width: 50em) {
   /*Navbar on mobile */
@@ -264,7 +260,6 @@ Bodies
     right: 2rem;
   }  
 
-  
   .nav-toggle[aria-expanded='true'] {
     background: url('./assets/close.png');
     background-repeat: no-repeat;
@@ -374,6 +369,7 @@ Bodies
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .projects {
@@ -447,8 +443,8 @@ Bodies
   }
 
   .project-image {
-    height:300px;
-    width:600px;
+      width: 100%;
+      height:auto;
   }
 
   .viz {
@@ -461,16 +457,6 @@ Bodies
   }
 }
 
-@media (max-width: 40em) {
-  .project-image {
-    width: 550px;
-  }
-
-  #garysPcs {
-    width: 110%;
-    height: auto;
-  }
-}
 /*CONTACT*/
 .contact-container {
   display: flex;
