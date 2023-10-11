@@ -84,7 +84,7 @@ export const Projects = () => {
             </div>
 
             <div className='projects'>
-                <img className='project-image viz' src={garysPCs} alt='garys pcs image'/> 
+                <img className='project-image viz' id='garysPcs' src={garysPCs} alt='garys pcs image'/> 
                 <div className='project-info'>
                     <div className='top left'></div>
                     <div className='bottom right'></div>

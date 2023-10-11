@@ -465,6 +465,11 @@ Bodies
   .project-image {
     width: 550px;
   }
+
+  #garysPcs {
+    width: 110%;
+    height: auto;
+  }
 }
 /*CONTACT*/
 .contact-container {
