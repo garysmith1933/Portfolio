@@ -3,6 +3,7 @@ const viz = require('../assets/Viz.png')
 const knowMe = require('../assets/knowme.png')
 const productPage = require('../assets/ProductPage.png')
 const garysPCs = require('../assets/garysPCs.png')
+const landon = require('../assets/landon.png')
 
 export const Projects = () => {
     return (
@@ -99,6 +100,24 @@ export const Projects = () => {
                         <a className='github-link' href='https://gitlab.com/gsmi572/gs-pcs' target='_blank'>Gitlab</a>  
                     </div>
                 </div>  
+            </div>
+
+            <div className='projects'>
+                <div className='project-info'>
+                    <div className='top left'></div>
+                    <div className='bottom right'></div>
+
+                    <h2 className='project-title'>Landon Hotel</h2>
+                    <p className='project-description'>Home page for the Landon Hotel in Ontario, Canada.</p>
+                    <b>Java, Spring Boot, Angular</b>
+
+                    <div className='project-links'>
+                        <a className='demo-link'href='https://landon-hotel.onrender.com' target='_blank'>Website</a>
+                        &nbsp;  &nbsp;
+                        <a className='github-link' href='https://gitlab.com/gsmi572/landon-hotel' target='_blank'>Github</a>  
+                    </div>
+                </div>
+                <img className='project-image viz' src={landon} alt='Landon Hotel Webpage'/>   
             </div>
 
         </div>
