@@ -4,6 +4,7 @@ const knowMe = require('../assets/knowme.png')
 const productPage = require('../assets/ProductPage.png')
 const garysPCs = require('../assets/garysPCs.png')
 const landon = require('../assets/landon.png')
+const Taniti = require('../assets/Taniti.png')
 
 export const Projects = () => {
     return (
@@ -118,6 +119,24 @@ export const Projects = () => {
                     </div>
                 </div>
                 <img className='project-image viz' src={landon} alt='Landon Hotel Webpage'/>   
+            </div>
+
+            <div className='projects'>
+                <img className='project-image viz' src={Taniti} alt='Taniti project image'/> 
+                <div className='project-info'>
+                    <div className='top left'></div>
+                    <div className='bottom right'></div>
+
+                    <h2 className='project-title'>Island of Taniti</h2>
+                    <p className='project-description'>Comprehensive tourist website for the Island of Taniti.</p>
+                    <b>HTML, CSS</b>
+
+                    <div className='project-links'>
+                        <a className='demo-link'href='https://jazzy-capybara-e563ca.netlify.app/' target='_blank'>Website</a>
+                        &nbsp;  &nbsp;
+                        <a className='github-link' href='https://github.com/garysmith1933/Taniti' target='_blank'>Github</a>  
+                    </div>
+                </div>  
             </div>
 
         </div>
