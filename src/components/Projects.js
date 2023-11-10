@@ -4,7 +4,8 @@ const knowMe = require('../assets/knowme.png')
 const productPage = require('../assets/ProductPage.png')
 const garysPCs = require('../assets/garysPCs.png')
 const landon = require('../assets/landon.png')
-const Taniti = require('../assets/Taniti.png')
+const taniti = require('../assets/Taniti.png')
+const worldMap =  require('../assets/WorldMap.png')
 
 export const Projects = () => {
     return (
@@ -122,7 +123,7 @@ export const Projects = () => {
             </div>
 
             <div className='projects'>
-                <img className='project-image viz' src={Taniti} alt='Taniti project image'/> 
+                <img className='project-image viz' src={taniti} alt='Taniti project image'/> 
                 <div className='project-info'>
                     <div className='top left'></div>
                     <div className='bottom right'></div>
@@ -137,6 +138,24 @@ export const Projects = () => {
                         <a className='github-link' href='https://github.com/garysmith1933/Taniti' target='_blank'>Github</a>  
                     </div>
                 </div>  
+            </div>
+
+            <div className='projects'>
+                <div className='project-info'>
+                    <div className='top left'></div>
+                    <div className='bottom right'></div>
+
+                    <h2 className='project-title'>World Map</h2>
+                    <p className='project-description'>Explore an interactive world map to unlock fascinating country insights with a simple click!</p>
+                    <b>Angular, HTML, CSS</b>
+
+                    <div className='project-links'>
+                        <a className='demo-link'href='https://main--dazzling-mochi-d2929c.netlify.app/' target='_blank'>Website</a>
+                        &nbsp;  &nbsp;
+                        <a className='github-link' href='https://github.com/garysmith1933/WGUD280' target='_blank'>Github</a>  
+                    </div>
+                </div>
+                <img className='project-image viz' src={worldMap} alt='World map project image'/>   
             </div>
 
         </div>
