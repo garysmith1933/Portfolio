@@ -6,6 +6,7 @@ const garysPCs = require('../assets/garysPCs.png')
 const landon = require('../assets/landon.png')
 const taniti = require('../assets/Taniti.png')
 const worldMap =  require('../assets/WorldMap.png')
+const Vacays = require('../assets/Vacays.png')
 
 export const Projects = () => {
     return (
@@ -157,6 +158,25 @@ export const Projects = () => {
                 </div>
                 <img className='project-image viz' src={worldMap} alt='World map project image'/>   
             </div>
+
+            <div className='projects'>
+                <img className='project-image viz' id='garysPcs' src={Vacays} alt='Vacays project image'/> 
+                <div className='project-info'>
+                    <div className='top left'></div>
+                    <div className='bottom right'></div>
+
+                    <h2 className='project-title'>Vacays</h2>
+                    <p className='project-description'> Book your next vacation here! </p>
+                    <b> Java, Spring Boot, Angular</b>
+
+                    <div className='project-links'>
+                        <a className='demo-link'href='https://vacays-gchr-latest.onrender.com' target='_blank'>Website</a>
+                          &nbsp;  &nbsp;
+                        <a className='github-link' href='https://github.com/garysmith1933/Vacays' target='_blank'>Github</a>  
+                    </div>
+                </div>  
+            </div>
+
 
         </div>
     )
